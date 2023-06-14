@@ -1,0 +1,16 @@
+*,
+::before,
+::after {
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 0;
+  border: none;
+  margin: 0;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
